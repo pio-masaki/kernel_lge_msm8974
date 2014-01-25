@@ -461,3 +461,19 @@ config SND_SOC_MSM_HDMI_CODEC_RX
 	help
 	HDMI audio drivers should be built only if the platform
         supports hdmi panel.
+<<<<<<< HEAD
+=======
+
+# LGE_BSP_AUDIO, jeremy.pi@lge.com, Audience eS325 ALSA SoC Audio driver
+config SND_SOC_ES325_SLIM
+	bool "Audience es325 SLIMBus"
+	default n
+	help
+		Audience es325 Dual Mic Noise Reduction
+
+config SOUND_CONTROL_HAX_3_GPL
+	tristate "new wcd93xx sound control hax"
+	default y
+	help
+	  FauxSound WCD93xx chipset sound control hacks 3.0 for deeper hax
+>>>>>>> eb093e8... sound control: add faux sound .. squashed will update with all commits later too lazy right now
