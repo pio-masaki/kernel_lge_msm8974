@@ -56,15 +56,13 @@ static struct scalable scalable[] __initdata = {
 		.hfpll_phys_base = 0xF908A000,
 		.l2cpmr_iaddr = 0x4501,
 		.sec_clk_sel = 2,
-<<<<<<< HEAD
+
 		.vreg[VREG_CORE] = { "krait0",     1120000 },
-=======
 #ifdef CONFIG_CPU_OVERCLOCK
 		.vreg[VREG_CORE] = { "krait0",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait0",     1100000 },
 #endif
->>>>>>> c048134... CPU OVERCLOCKING: initial CPU Overclocking for Snapdragon 800 Socs
 		.vreg[VREG_MEM]  = { "krait0_mem", 1050000 },
 		.vreg[VREG_DIG]  = { "krait0_dig", LVL_HIGH },
 		.vreg[VREG_HFPLL_A] = { "krait0_hfpll", 1800000 },
@@ -73,15 +71,14 @@ static struct scalable scalable[] __initdata = {
 		.hfpll_phys_base = 0xF909A000,
 		.l2cpmr_iaddr = 0x5501,
 		.sec_clk_sel = 2,
-<<<<<<< HEAD
+
 		.vreg[VREG_CORE] = { "krait1",     1120000 },
-=======
 #ifdef CONFIG_CPU_OVERCLOCK
 		.vreg[VREG_CORE] = { "krait1",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait1",     1100000 },
 #endif
->>>>>>> c048134... CPU OVERCLOCKING: initial CPU Overclocking for Snapdragon 800 Socs
+
 		.vreg[VREG_MEM]  = { "krait1_mem", 1050000 },
 		.vreg[VREG_DIG]  = { "krait1_dig", LVL_HIGH },
 		.vreg[VREG_HFPLL_A] = { "krait1_hfpll", 1800000 },
@@ -90,15 +87,12 @@ static struct scalable scalable[] __initdata = {
 		.hfpll_phys_base = 0xF90AA000,
 		.l2cpmr_iaddr = 0x6501,
 		.sec_clk_sel = 2,
-<<<<<<< HEAD
 		.vreg[VREG_CORE] = { "krait2",     1120000 },
-=======
 #ifdef CONFIG_CPU_OVERCLOCK
 		.vreg[VREG_CORE] = { "krait2",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait2",     1100000 },
 #endif
->>>>>>> c048134... CPU OVERCLOCKING: initial CPU Overclocking for Snapdragon 800 Socs
 		.vreg[VREG_MEM]  = { "krait2_mem", 1050000 },
 		.vreg[VREG_DIG]  = { "krait2_dig", LVL_HIGH },
 		.vreg[VREG_HFPLL_A] = { "krait2_hfpll", 1800000 },
@@ -107,15 +101,12 @@ static struct scalable scalable[] __initdata = {
 		.hfpll_phys_base = 0xF90BA000,
 		.l2cpmr_iaddr = 0x7501,
 		.sec_clk_sel = 2,
-<<<<<<< HEAD
 		.vreg[VREG_CORE] = { "krait3",     1120000 },
-=======
 #ifdef CONFIG_CPU_OVERCLOCK
 		.vreg[VREG_CORE] = { "krait3",     1200000 },
 #else
 		.vreg[VREG_CORE] = { "krait3",     1100000 },
 #endif
->>>>>>> c048134... CPU OVERCLOCKING: initial CPU Overclocking for Snapdragon 800 Socs
 		.vreg[VREG_MEM]  = { "krait3_mem", 1050000 },
 		.vreg[VREG_DIG]  = { "krait3_dig", LVL_HIGH },
 		.vreg[VREG_HFPLL_A] = { "krait3_hfpll", 1800000 },
